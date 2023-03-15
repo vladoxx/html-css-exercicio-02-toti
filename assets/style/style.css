@@ -3,44 +3,54 @@
 }
 
 body  {
-    widows: 1024px;
     font-family: 'Quicksand', sans-serif;
     margin: 0 auto;
+    padding: 0;
     line-height: 25px;
 }
 
-.Encabezado  {
-    color: #ffffff;
-    padding: 50px 16px;
-    margin-top: auto;
-    text-decoration: none;
-    margin-bottom: auto;
+/* Cabecalho*/
+
+.cabecalho {
+
 }
 
-.Encabezado:hover  {
-    background-color:  #56d672;
-    padding: 40px;
-}
-
-.Brother´s  {
+.cabecalho__container {
     display: flex;
-    align-items: right;
+    align-items: center;
     background-color:#180e0b;
-    padding: 40px; 
-    justify-content: space-between;
+    padding: 15px 40px; 
+    justify-content: space-between
 }
 
-.Casa  {
+.cabecalho__titulo {
     color: #ffffff;
-    float: left;
-    margin-top: auto;
-    margin-bottom: auto;
-} 
-
-.Uno  {
-    width: 100%;
-    height: 50%;
+    font-size: 40px	
 }
+
+.cabecalho__nav {
+
+}
+
+.cabecalho__link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cabecalho__link:hover  {
+    background-color:  #56d672;
+    padding: 40px
+}
+
+.cabecalho__banner {
+    width: 100%;
+    height: 600px;
+}
+
+/* Main */
 
 .Dos  {
     width: 120px;
@@ -84,13 +94,6 @@ body  {
     background-color:#291914;
     padding:48px;
 } 
-
-h1  {
-    padding-left: 5px;
-    align-items: stretch;
-    color: #ffffff;
-    font-size: 40px;	
-}
 
 h2  {
     font-size: 17px;
