@@ -42,15 +42,48 @@ body  {
 
 .cabecalho__link:hover  {
     background-color:  #56d672;
-    padding: 40px
+    padding: 40px;
+    transition: 0.5s;
 }
 
 .cabecalho__banner {
     width: 100%;
     height: 600px;
+    /* object-fit: cover; */
 }
 
 /* Main */
+/* Horarios */
+
+.horarios {
+    background-color: aliceblue ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.horarios__containers {
+    width: 22%;
+}
+
+.horarios__imagens {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.horarios__titulo {
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+.horarios__descripcao {
+    color: #000000;
+    font-size: 1rem;
+}
+
+/* Horarios */
 
 .Dos  {
     width: 120px;
@@ -62,17 +95,6 @@ body  {
     margin-top: 29px;
     height: 240px;
     width: 100%;
-}
-
-.Centro  {
-    display: inline-block;
-    width: 24%;
-    padding-top: 20px;
-    padding-left: 48px;
-    padding-right: 34px;
-    padding-bottom: 60px;
-    justify-content: space-between;
-    height: 550px;
 }
 
 .Limbo  {
