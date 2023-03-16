@@ -25,7 +25,7 @@ body  {
 
 .cabecalho__titulo {
     color: #ffffff;
-    font-size: 40px	
+    font-size: 2.7rem
 }
 
 .cabecalho__nav {
@@ -36,20 +36,20 @@ body  {
     color: #ffffff;
     text-decoration: none;
     margin-left: 25px;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 .cabecalho__link:hover  {
-    background-color:  #56d672;
-    padding: 40px;
-    transition: 0.5s;
+    background-color: #8db83d;
+    padding: 40px 20px;
+    transition: 0.3s;
 }
 
 .cabecalho__banner {
     width: 100%;
-    height: 600px;
-    /* object-fit: cover; */
+    height: 400px;
+    object-fit: cover;
 }
 
 /* Main */
@@ -65,6 +65,13 @@ body  {
 
 .horarios__containers {
     width: 22%;
+}
+
+.horarios__containers:hover {
+    padding: 15px;
+    background-color: #8db83d;
+    border-radius: 15px;
+    transition: .2s;
 }
 
 .horarios__imagens {
@@ -83,57 +90,63 @@ body  {
     font-size: 1rem;
 }
 
-/* Horarios */
+/* Ubicação */
 
-.Dos  {
-    width: 120px;
-    height: 120px;
-    padding: 15px;
+.ubicacao {
+    padding: 30px;
+    background-color: #261611; 
+    color: #c0745d;
 }
 
-.Tres  {
-    margin-top: 29px;
-    height: 240px;
-    width: 100%;
-}
-
-.Limbo  {
-    margin-top: 25px;
+.ubicacao__articles {
     display: flex;
-    width:300px;
-    height: 100px; 
+    flex-direction: column;
+    width: 50%;
 }
 
-.Inferior  {
-    display: inline-block;
-    width: 640px;
-    height: 55px; 
-    flex-direction: column;  
+.ubicacao__titulos {
+    font-size: 1.3rem;
+    color: #ffffff;   
 }
+
+.ubicacao__info {
+    display: flex;
+}
+
+.ubicacao__imagens {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 28px;
+}
+
+.ubicacao__descripcao {
+    width: 45%;
+    font-size: 0.8rem;
+}
+
+.ubicacao__imagens-grande {
+    padding: 10px 10px 0 10px;
+    height: 340px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.ubicacao__info-grande {
+    width: 640px;
+}
+
+.ubicacao__descripcao-grande {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+/* Ubicação */
 
 .Ultimo  {
     justify-content: space-between;
     background-color:#291914;
     padding:48px;
-} 
-
-h2  {
-    font-size: 17px;
-    color: #ffffff;
-}
-
-article  {
-    flex-direction: column;
-}
-
-article p {
-    float: left;
-    width: 75%;
-    height: 100%;
-    box-sizing:border-box;
-    text-align: "justify";
-    font-size: 13px;
-    color: #c0745d;	
 }
 
 section  {
@@ -169,14 +182,6 @@ ul a  {
     text-align: left;
     padding-left: 34px;
     color: #ffffff;
-}
-
-.Localização  {
-    padding-top: 15px;
-    width: 100%;
-    text-align: "justify";
-    font-size: 13px;
-    color: #c0745d;	
 }
 
 .Historia  {
