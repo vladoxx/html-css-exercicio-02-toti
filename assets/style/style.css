@@ -43,6 +43,7 @@ body  {
 .cabecalho__link:hover  {
     background-color: #8db83d;
     padding: 40px 20px;
+    border-radius: 15px;
     transition: 0.3s;
 }
 
@@ -96,6 +97,8 @@ body  {
     padding: 30px;
     background-color: #261611; 
     color: #c0745d;
+
+    display: inline-flex;
 }
 
 .ubicacao__articles {
@@ -141,69 +144,58 @@ body  {
     font-size: 0.8rem;
 }
 
-/* Ubicação */
+/* historia-contato */
 
-.Ultimo  {
+.historia-contato {
+    display: flex;
+
     justify-content: space-between;
-    background-color:#291914;
-    padding:48px;
-}
-
-section  {
-    background-color: #261611; 
+    background-color:#361b13;
+    font-size: 0.9rem;
     color: #c0745d;
-    font-size: 14px;
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    display: inline-flex;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
+    padding: 30px;
 }
 
-ul  {
+.historia-contato__container {
+
+}
+
+.historia-contato__titulo {
+    font-size: 1.3rem;
+    color: #ffffff;   
+}
+
+.historia-contato__descripcao {
+
+}
+
+.historia-contato__titulo-contacto {
+    margin-left: 40px;
+    font-size: 1.3rem;
+    color: #ffffff;   
+}
+
+.historia-contato__lista {
     line-height: 30px;
     list-style: none;
     font-size: 19px;
     letter-spacing: 1px;
 }
 
-ul a  {
+.historia-contato__lista a {
     text-decoration: underline;
     color: #c0745d;
     width: 100%;
     justify-content: flex-start;
 }
 
-.Direção  {
-    font-size: 18px;
-    text-align: left;
-    padding-left: 34px;
-    color: #ffffff;
-}
-
-.Historia  {
-    width: 70%;
-}
-
 strong  {
     color: #ffffff;
 }
 
-.final  {
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-}
-
-footer  {
+.pie-de-pagina  {
     background-color: #180e0b;
     color: #c0745d;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    clear: both;
+    text-align: center;
 }
